@@ -9,4 +9,3 @@ Should not register without filling in required fields
 Command "kill it" control C, control c
 
 Questions
-1. You have a menu drop down that holds all previos "saved to clipboard"?
