@@ -1,0 +1,12 @@
+Should log in with your existing account as an admin 
+Should log out
+Should register a new account
+Should not register with an already existing email account
+Should not register without filling in required fields
+
+
+
+Command "kill it" control C, control c
+
+Questions
+1. You have a menu drop down that holds all previos "saved to clipboard"?
