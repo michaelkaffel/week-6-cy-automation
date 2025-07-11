@@ -1,17 +1,6 @@
-/// <reference types="cypress" />
 
-// Welcome to Cypress!
-//
-// This spec file contains a variety of sample tests
-// for a todo list app that are designed to demonstrate
-// the power of writing tests in Cypress.
-//
-// To learn more about how Cypress works and
-// what makes it such an awesome testing tool,
-// please read our getting started guide:
-// https://on.cypress.io/introduction-to-cypress
 
-describe('example to-do app', () => {
+describe('Login', () => {
   beforeEach(() => {
     cy.visit('/')
   })
@@ -26,6 +15,7 @@ describe('example to-do app', () => {
     cy.contains('Login').click();
     // Verify admin role and title
     cy.get('a p').first().should('have.text', 'role: admin');
+    // verify name here using h6 as selector
     cy.title('eq', 'User: Profile | Dalek Homes');
   })
 })
